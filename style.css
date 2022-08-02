@@ -1,0 +1,35 @@
+/* Corpo da Página */
+
+body {
+    background-color: black;
+}
+
+/* Navegador da Página */
+
+.MenuTopo {
+    display: flex;
+    background-color: rgb(245, 245, 245);
+    height: 10%;
+    width: 100%;
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
+    align-items: center;
+    justify-content: center;
+}
+
+.MenuTopo a {
+    margin-left: 4%;
+    margin-right: 4%;
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+.MenuTopo img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
