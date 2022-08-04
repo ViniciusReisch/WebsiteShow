@@ -37,14 +37,14 @@ body {
 
 .background {
     width: 100%;
-    position: relative;
-    left: -7px;
+    padding-bottom: 75%;
+    overflow: hidden;
 }
 
 .menuText {
     letter-spacing: 3px;
     font-size: 23px;
     font-weight: bold;
-    padding-right: ;
+    padding-right: 30px;
     font-family: 'Times New Roman', Times, serif;
 }
