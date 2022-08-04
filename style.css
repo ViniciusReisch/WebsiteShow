@@ -13,6 +13,7 @@ body {
     width: 100%;
     position: absolute;
     z-index: 1;
+    box-shadow: 12px 12px 12px rgba(0, 0, 0, 0.2);
     top: 0;
     left: 0;
     overflow-x: hidden;
@@ -32,4 +33,18 @@ body {
     display: block;
     margin-left: auto;
     margin-right: auto;
+}
+
+.background {
+    width: 100%;
+    position: relative;
+    left: -7px;
+}
+
+.menuText {
+    letter-spacing: 3px;
+    font-size: 23px;
+    font-weight: bold;
+    padding-right: ;
+    font-family: 'Times New Roman', Times, serif;
 }
