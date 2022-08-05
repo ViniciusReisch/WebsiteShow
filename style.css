@@ -1,32 +1,23 @@
-/* Corpo da Página */
-
-body {
-    background-image: url(assets/wallpaper-ACDC.png);
-    background-repeat: no-repeat;
-    background-size: 100%;
-
-}
+body{background-color: black;}
 
 /* Navegador da Página */
 
 .MenuTopo {
     display: flex;
     background-color: rgb(245, 245, 245);
+    border-bottom: 2px solid black;
     height: 10%;
     width: 100%;
-    position: absolute;
+    position: fixed;
     z-index: 1;
-    box-shadow: 12px 12px 12px rgba(0, 0, 0, 0.2);
     top: 0;
     left: 0;
     overflow-x: hidden;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
 }
 
 .MenuTopo a {
-    margin-left: 4%;
-    margin-right: 4%;
     text-decoration: none;
     color: black;
     font-size: 23px;
@@ -42,11 +33,68 @@ body {
     margin-right: auto;
 }
 
-.sobreTexto {
-    margin-top: 750px;
+/* Bloco Home */
+
+.BlocoHome {
     display: flex;
-    background-color: rgb(0, 0, 0);
     height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+/* Bloco Sobre */
+
+.BlocoSobre {
+    margin-top: 53.2%;
+    display: flex;
+    background-color: rgb(245, 245, 245);
+    height: 90%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.BlocoSobre .Caixas {
+    margin: 10%;
+}
+
+.BlocoSobre .Caixas .CaixaTexto {
+    display: flex;
+    background-color: black;
+    height: 55%;
+    width: 30%;
+    position: absolute;
+}
+
+.BlocoSobre .Caixas .CaixaTexto p {
+    margin: 10%;
+    padding: 0;
+    text-decoration: none;
+    text-align: justify;
+    justify-content: space-between;
+    color: rgb(245, 245, 245);
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;    
+}
+
+.BlocoSobre .Caixas .CaixaImagem {
+    display: flex;
+    height: 55%;
+    width: 30%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+/* Bloco Ingressos */
+
+.BlocoIngressos {
+    display: flex;
+    margin-top: 101%;
+    height: 90%;
     width: 100%;
     position: absolute;
     top: 0;
